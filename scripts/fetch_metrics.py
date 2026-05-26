@@ -213,7 +213,7 @@ def main():
         "accounts":     results,
     }
 
-    out_path = os.path.join(os.path.dirname(__file__), "..", "public", "data.json")
+    out_path = os.path.join(os.path.dirname(__file__), "..", "docs", "data.json")
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
 
